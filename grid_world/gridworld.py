@@ -82,3 +82,5 @@ if __name__ == '__main__':
         }
     }
     policy, Value = grid_world(params)
+    print('Policy:', policy)
+    print('Value:', Value)
